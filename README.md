@@ -22,3 +22,8 @@ Reusable cookie notification bar plugin
     		content: ".element-to-be-pushed-down-by-cookie-bar"
     	});
     ```
+
+## TO DO
+
+1. Improve readme
+2. Register bower component
