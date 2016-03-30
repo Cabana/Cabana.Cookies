@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Cabana.Cookies demo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="notification" data-notification="accept-cookies">
+        <p>
+            Vi samler statistik ved hjælp af cookies for at forbedre brugeroplevelsen.&nbsp;<a href="#">Læs mere om cookies</a>
+        </p>
+        <a id="accept-cookies" href="#" data-notification-set="true" data-notification-interval="30">Acceptér cookies</a>
+    </section>
+    <script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script src="build/Cabana.Cookies.js"></script>
+    <script>
+    	$(".notification").CabanaCookies({
+    		content: ".header"
+    	});
+    </script>
+</body>
+
+</html>
