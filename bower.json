@@ -1,0 +1,17 @@
+{
+  "name": "Cabana.Cookies",
+  "homepage": "https://github.com/Cabana/Cabana.Cookies",
+  "authors": [
+    "Motiejus <motiejus.b@gmail.com>"
+  ],
+  "description": "Reusable cookie notification bar plugin",
+  "main": "build/Cabana.Cookies.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
