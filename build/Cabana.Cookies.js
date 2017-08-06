@@ -66,7 +66,7 @@
                     e.preventDefault();
 
                     var value = $(this).attr('data-notification-set'),
-                        notification = $(this).parents(this).first(),
+                        notification = $(this).parents('[data-notification]').first(),
                         name = notification.attr('data-notification'),
                         interval = notification.attr('data-notification-interval') || $(this).attr('data-notification-interval') || 0;
 
